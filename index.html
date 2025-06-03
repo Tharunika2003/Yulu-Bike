@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yulu Clone</title>
+  <link rel="stylesheet" href="./csss folder/nav.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="./images/Yulu_Logo_903d3c4e9b.svg" alt="Yulu Logo" />
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="#" class="nav1">Products<span>&#9662;</span></a></li>
+        <li><a href="#">Buy Wynn</a></li>
+        <li><a href="#">Rentals</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">News Room</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="download-btn">Download<br>Yulu App</a>
+  </header>
+
+  <section class="hero">
+    <div class="background-image"></div>
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="https://yulu-blogs-cdn.yulu.bike/banner_mini_4a97cece46.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <h1>Moving India <br> towards a <span>sustainable future</span></h1>
+      <p>Micro-mobility solutions that help reduce traffic congestion and air pollution</p>
+      <a href="#" class="watch-btn">▶ Watch Video</a>
+    </div>
+  </section>
+  <!-- <a href="#" class="chat-widget">
+    <img src="chat-icon.png" alt="Chat Icon" />
+  </a> -->
+  <div class="chat-button">
+    <span class="chat-icon">
+    </span>
+  </div>
+
+  <section class="how-to-yulu">
+    <div class="left-column">
+      <video id="stepVideo" autoplay muted playsinline loop>
+        <source src="./images/download.mp4" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="right-column">
+      <h2>How to Yulu</h2>
+      <div class="step active" data-src="./images/download.mp4" data-step="1">
+        <img src="./images/download_4745d1fcf7.svg" alt="Download App Icon" />
+        <div>
+          <h3>Download YULU app</h3>
+          <p>Download the Yulu app from the Appstore or the Playstore</p>
+        </div>
+      </div>
+
+      <div class="step" data-src="./images/locate.mp4" data-step="2">
+        <img src="./images/locate_1d326794a0.svg" alt="Location Icon" />
+        <div>
+          <h3>Locate a Yulu</h3>
+          <p>Use the app to find the closest vehicle or a Yulu Zone.</p>
+        </div>
+      </div>
+
+      <div class="step" data-src="./images/scan.mp4" data-step="3">
+        <img src="./images/scan_7f24281c07.svg" alt="QR Icon" />
+        <div>
+          <h3>Scan the QR code</h3>
+          <p>Scan the QR code on the vehicle to unlock it.</p>
+        </div>
+      </div>
+
+      <div class="step" data-src="./images/ride.mp4" data-step="4">
+        <img src="./images/ride safely.svg" alt="Bike Icon" />
+        <div>
+          <h3>Ride Safely</h3>
+          <p>Enjoy the Yulu ride but remember to abide by all the traffic laws and parking policies.</p>
+        </div>
+      </div>
+
+      <div class="step" data-src="./images/ride.mp4" data-step="5">
+        <img src="./images/end_21a23f1607.svg" alt="End Ride Icon" />
+        <div>
+          <h3>End your ride</h3>
+          <p>To end your ride, park the vehicle at a Yulu Zone, lock it and click on the End button on your app.</p>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="yulu-model">
+      <img src="./images/girl.jpg" alt="Model on Yulu Bike" />
+    </div>
+  </section>
+  
+  <section class="product-section">
+    <header class="tab-menu">
+      <nav class="tabs">
+        <span class="tab active">Wynn XP</span>
+        <span class="tab">Miracle NV</span>
+        <span class="tab">DeX NV</span>
+        <span class="tab">Miracle GR</span>
+        <span class="tab">DeX GR</span>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="text-content">
+        <p>‘It’s intelligent. It’s easy-to-ride. It’s for everyone. India’s first EasyMo is here!’</p>
+        <button class="know-more-btn">Know More</button>
+      </div>
+      <div class="image-content">
+        <h1>Wynn XP</h1>
+        <img src="./images/bike.png" alt="Yulu Scooter" />
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="news-section">
+    <div class="news-container" id="newsContainer">
+      <div class="news-card">
+        <img src="./images/news1.jpeg" alt="News 1" />
+        <div class="news-content">
+          <h3>Yulu Implements WhatsApp-based Road Safety Initiative for Delivery Riders</h3>
+          <p class="source">Autocar Professional, February 27, 2025</p>
+          <p class="description">
+            Yulu, an Indian shared electric mobility provider, has launched the country's first WhatsApp-based Road Safety Learning Initiative targeting delivery personnel. The program has already seen participation from over 3,600 riders who have completed the initial educational module and received "Safe Rider Beginner" certifications.
+          </p>
+        </div>
+      </div>
+      
+      <div class="news-card">
+        <img src="./images/news 2.jpg" alt="News 2" />
+        <div class="news-content">
+          <h3>ET Now On The Go | Riding The Last-Mile Connectivity With Yulu</h3>
+          <p class="source">ET Now, December 26, 2024</p>
+          <p class="description">
+            From revolutionizing last-mile connectivity to powering your green deliveries, Yulu is shaping a sustainable future for India. In this exclusive Walk the Talk interview with ET Now, Yulu Co-founder &amp; CEO, Amit Gupta, shares insights on how Yulu is driving India’s shift to sustainable urban mobility.
+          </p>
+        </div>
+      </div>
+      
+      <div class="news-card">
+        <img src="./images/news3.jpg" alt="News 3" />
+        <div class="news-content">
+          <h3>'Quick commerce, e-commerce has fueled Yulu’s growth': Naveen Dachuri</h3>
+          <p class="source">Autocar Professional, December 24, 2024</p>
+          <p class="description">
+            While Yulu presently commands a dominating 35-40% penetration in the key urban markets it presently serves, it aims to cater to as much as 60-70% of the last-mile delivery demand in India. In this video interview, Naveen Dachuri, Co-Founder and CTO, Yulu, talks about Yulu's next steps of growth. 
+          </p>
+        </div>
+      </div>
+      
+      <div class="news-card">
+        <img src="./images/news4.jpg" alt="News 4" />
+        <div class="news-content">
+          <h3>Yulu’s electric leap: How pivoting to quick commerce and road safety is powering its profit surge</h3>
+          <p class="source">Business Today, December 8, 2024</p>
+          <p class="description">
+            Shared electric mobility start-up Yulu's shift to servicing the quick commerce sector is helping it grow fast. It is now focussing on improving road safety features as it turns EBITDA positive, has become a favourite for last-mile delivery and has expanded its reach into 12 cities now.
+          </p>
+        </div>
+      </div>
+      
+      <div class="news-card">
+        <img src="./images/news5.jpg" alt="News 5" />
+        <div class="news-content">
+          <h3>Amit Gupta On Yulu's Next Phase Of Growth</h3>
+          <p class="source">BW Disrupt, October 21, 2024</p>
+          <p class="description">
+            Amit Gupta, Co-founder and CEO of Yulu, shares the company's future plans. Gupta emphasizes India's growing quick commerce segment, Yulu's pivotal role in its growth, and the partnerships it maintains within the industry.
+          </p>
+        </div>
+      </div>
+      
+      <div class="news-card">
+        <img src="./images/news6.jpeg" alt="News 6" />
+        <div class="news-content">
+          <h3>Electric Mobility Startup Yulu Turns EBITDA Positive - CNBC-TV18 Startup Street</h3>
+          <p class="source">CNBC-TV18, October 8, 2024</p>
+          <p class="description">
+            Shared electric vehicle mobility firm Yulu’s annual recurring revenue (ARR) crossed $30 million in 2024 and it turned Ebitda positive on growing demand from the quick commerce segment, the Bengaluru-based startup said on October 7.
+          </p>
+        </div>
+      </div>
+      
+      <div class="news-card">
+        <img src="./images/news7.png" alt="News 7" />
+        <div class="news-content">
+          <h3>Bajaj Auto-backed Yulu plans IPO in 2–3 years</h3>
+          <p class="source">Financial Express, October 8, 2024</p>
+          <p class="description">
+            Buoyed by an uptick in business, Bengaluru-based shared mobility firm Yulu is targeting an initial public offering (IPO) in the next two-three years, co-founder and CEO Amit Gupta said. The company is also close to achieving profitability, he said.
+          </p>
+        </div>
+      </div>
+      
+      <div class="news-card">
+        <img src="./images/news8.jpg" alt="News 8" />
+        <div class="news-content">
+          <h3>Yulu becomes EBITDA positive with USD 30 million ARR</h3>
+          <p class="source">ET Auto, October 7, 2024</p>
+          <p class="description">
+            Yulu has improved the livelihoods of over 150,000 riders, including women, and their families. Its value proposition offers up to 40% savings compared to traditional internal combustion engine (ICE) vehicles, making it the preferred choice for delivery riders.
+          </p>
+        </div>
+      </div>
+      
+      <div class="news-card">
+        <img src="./images/news9.jpg" alt="News 9" />
+        <div class="news-content">
+          <h3>Yulu Collaborates With Accenture To Accelerate Tech Innovation</h3>
+          <p class="source">Business Line, September 15, 2024</p>
+          <p class="description">
+            Yulu’s CTO and Co-founder, Naveen Dachuri, discusses data-driven operational strategies, technology innovations, and the future of electric vehicles in sustainable urban mobility.
+          </p>
+        </div>
+      </div>
+      
+      <div class="news-card">
+        <img src="./images/news10.jpeg" alt="News 10" />
+        <div class="news-content">
+          <h3>Yulu Expands Its Green Mobility Goals With New CSR Campaign</h3>
+          <p class="source">India CSR, August 30, 2024</p>
+          <p class="description">
+            Yulu Bikes aims to raise over $100 million in a Series C round to expand its operations and fleet of electric two-wheelers. The company is looking at more than doubling the fleet of electric two-wheelers it deploys for passenger as well as cargo movement to 80,000 by the end of this fiscal year.
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+      <div class="container">
+        <div class="left-section">
+          <h2>Hear what our customers are saying</h2>
+          <p>Follow us on</p>
+          <div class="social-icons1">
+            <a href="https://facebook.com" target="_blank"><img src="./images/fb_black_81660e91af.svg" alt="Facebook"></a>
+            <a href="https://instagram.com" target="_blank"><img src="./images/instagram_black_a3442bf7e2.svg" alt="Instagram"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="./images/linkedin_black_5021966193.svg" alt="LinkedIn"></a>
+            <a href="https://twitter.com" target="_blank"><img src="./images/twitter_black_b3fd443328.svg" alt="Twitter"></a>
+            <a href="https://youtube.com" target="_blank"><img src="./images/youtube_black_d51cf33cd5.svg" alt="YouTube"></a>
+          </div>
+          <div class="pagination">
+            <div class = "page-count">
+              <span class="current">01</span>
+              <span class="divider">/</span>
+              <span class="total">09</span>
+            </div>
+            <div class="arrows">
+              <button class="arrow-btn">&#8592;</button>
+            <span class="line"></span>
+            <button class="arrow-btn">&#8594;</button>
+            </div>
+          
+          </div>
+        </div>
+        <div class="testimonial-section">
+          <div class="testimonial active">
+            <h5 class="quote">“</h5>
+            <p>Within a short time of becoming a Yulu Business Partner, we have achieved significant milestones in terms of revenues and rides. 
+              This has only been possible due to Yulu’s wonderful team, and the love showered on us by users. We look forward to a long and fruitful 
+              association with Yulu.</p>
+            <div class="user">
+              <img src="./images/Shyam_2_ff1fbbe0e8.jpeg" alt="User 1" />
+              <div class="user-details">
+                <strong>R Shyam Shankar</strong>
+                <span>Founder - Zeco Mobility,<br/> India</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="testimonial">
+            <h5 class="quote">“</h5>
+            <p>“I have been in Bangalore, for the past 3 weeks and among all things, this is the best things in Bangalore I have recently explored. It’s been some 43 rides and almost 200 km for me with #yulu.I have to say I am blown away by the utility of it and the potential/ability 
+              to transform the short distance or last-mile commute and with that the positive impact on our carbon footprint. 
+            Aren’t we fed up of our cities taking more than 50% of the spots in those top 10/xx polluted cities in the world? I 
+            hope the state governments realize it’s potential soon enough and start integrating it in their civic plans.”</p>
+            <div class="user1">
+              <img src="./images/T1_rakesh_f829528fe2.png" alt="User 2" />
+              <div class="user-details">
+                <strong>Rakesh Khajuria</strong>
+                <span>Associate Director,<br/> Marketing at Grofers</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="testimonial">
+            <h5 class="quote">“</h5>
+            <p>“Tried the Yulu Miracle EV for the first time today and absolutely loved it! Its’ Easy: I don't ride a motorbike but this was super
+              easy to use. Noiseless: I hate the noise made by a motorbike engine. This was noiseless. I couldn't even tell the scooter was on.Clean: 
+              it's electric so by definition, it is environment-friendly and Tech First: app-based, IoT enabled personalized and low maintenance.”</p>
+            <div class="user1">
+              <img src="./images/T2_Bhavik_7a493ffe79.png" alt="User 3" />
+              <div class="user-details">
+                <strong>Bhavik Rathod</strong>
+                <span>Head of uber Eats<br/>India & South Asia | Director, Uber</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h5 class="quote">“</h5>
+            <p>“I found these bikes to be light, easy to navigate and very comfortable. The upright handles and classic 
+              saddle seats automatically create a straight seating position. The bikes have a unisex frame and come in a s
+              tandard bright blue shade for easy identification. These are single speed hybrid commuter models available for use 
+              24×7 and 365 days a year. A basket fitted in front can come very handy but are definitely not designed to accommodate load.
+               Both front and rear wheels are protected with fenders and a lock situated on the back "I have the freedom to get around &amp;
+                swiftly cover short distances with Yulu". </p>
+            <div class="user1">
+              <img src="./images/T3_Vijay_a89450b6b4.png" alt="Rakesh Khaj" />
+              <div class="user-details">
+                <strong>Vijay Malhotra</strong>
+                <span>Blogger<br/>Pedalandtringtring.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h5 class="quote">“</h5>
+            <p>“We, at Wipro, have been quite excited about our association with Yulu. 
+              The foundation of this collaboration has been built on social responsibility and quality, 
+              which is something that we seek to achieve with all our partnerships. More than anything, 
+              we've seen a significant change in the attitude of people with respect to commute at our campus. U
+              sing Yulu around the campus has made their lives much easier. And not just them, it goes for others 
+              outside campus too. We're looking forward to having Yulu at our other Wipro branches as well!" </p>
+            <div class="user1">
+              <img src="./images/T4_Kshitiz_cda8c09c47.png" alt="Rakesh Khaj" />
+              <div class="user-details">
+                <strong>Kshitiz Pant</strong>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h5 class="quote">“</h5>
+            <p>“It's very convenient and eco friendly way of transport,
+               now we don't have to queue up for autos/taxi to go anywhere nearby, just a click away and "MIRACLE" happens T
+               hanks to yulu for taking this innovative step and making our life simpler -Nikhil Patel (a proud user of YULU service)"</p>
+            <div class="user1">
+              <img src="./images/T5_Nikhil_a617be8d61.png" alt="Rakesh Khaj" />
+              <div class="user-details">
+                <strong>Nikhil patel</strong>
+               
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h5 class="quote">“</h5>
+            <p>“Have you ever seen or had a Miracle? I had this amazing Yulu Miracle when I wanted to just get away, be by myself and clear my head. Indeed a refreshing ride which has now become a reasonable routine ? #RideTheChange #EcoFriendlyLife
+              "</p>
+            <div class="user1">
+              <img src="./images/T6_Hiral_5757b2516d.png" alt="Rakesh Khaj" />
+              <div class="user-details">
+                <strong>Hiral Tank</strong>
+                
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h5 class="quote">“</h5>
+            <p>“Yulu cycles by itself were very versatile, readily available and cost-effective for traveling short distances(eg. Stations). 
+              But Miracle has just changed the whole game, saving time and efforts! Both of the roll outs were very strategic and well planned."</p>
+            <div class="user1">
+              <img src="./images/T7_Ajinkya_b469030ceb.png" alt="Rakesh Khaj" />
+              <div class="user-details">
+                <strong>Dr Ajinkya Udamale</strong>
+                <span>Kudos to yulu team!</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <h5 class="quote">“</h5>
+            <p>“I use it for daily commute to the office, have taken more than 550 rides by now. With the saver packs, the commute becomes pretty
+               affordable. Great for fun activities too. Most bikes are well maintained. #YuluingAway #YuluBikes #YuluCommutes"</p>
+            <div class="user1">
+              <img src="./images/T8_Vivek_97348a0803.png" alt="Rakesh Khaj" />
+              <div class="user-details">
+                <strong>Vivek Satpute</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="footer">
+        <!-- Logo and Links Column -->
+        <div class="footer-column">
+          <img src="./images/Yulu_Logo_903d3c4e9b.svg" alt="Yulu Logo" class="logo">
+        </div>
+      
+        <div class="footer-column">
+          <ul>
+            <li>Dost</li>
+            <li>Partner</li>
+            <li>Careers</li>
+            <li>Blogs</li>
+            <li>NewsRoom</li>
+            <li>FAQs</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>User Agreement</li>
+            <li>EWY Agreement</li>
+            <li>Customer Testimonials</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+      
+        <div class="footer-column1">
+          <h4>Products</h4>
+          <ul>
+            <li>Wynn XP</li>
+            <li>Miracle NV</li>
+            <li>DeX NV</li>
+            <li>Miracle GR</li>
+            <li>DeX GR</li>
+          </ul>
+        </div>
+      
+        <div class="footer-column2">
+          <h4>Address</h4>
+          <ul>
+            <li>Yulu, 2nd Floor, Etamin</li>
+            <li>Block (Wing A), Prestige</li>
+            <li>Tech Park, Kadubeesanahalli,</li>
+            <li>Bengaluru, Karnataka</li>
+            <li>560103 India</li>
+          </ul>
+        </div>
+      
+        <div class="footer-column3">
+          <h4>Download App</h4>
+          <div class="app-links">
+            <img src="./images/g_play_fff975e68e.svg" alt="Google Play">
+            <img src="./images/app_store_ece7bc14c3.svg" alt="App Store">
+          </div>
+          <h3>Follow Us on</h3>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><img src="./images/fb_black_81660e91af.svg" alt="Facebook"></a>
+            <a href="https://instagram.com" target="_blank"><img src="./images/instagram_black_a3442bf7e2.svg" alt="Instagram"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="./images/linkedin_black_5021966193.svg" alt="LinkedIn"></a>
+            <a href="https://twitter.com" target="_blank"><img src="./images/twitter_black_b3fd443328.svg" alt="Twitter"></a>
+            <a href="https://youtube.com" target="_blank"><img src="./images/youtube_black_d51cf33cd5.svg" alt="YouTube"></a>
+          </div>
+        </div>
+      </footer>
+      <hr />
+      <div class="bottom-bar">
+        Copyright © 2019 Yulu Bikes Pvt Ltd
+      </div>
+  
+  <script src="./js folder/app.js"></script>
+  <script src="./js folder/app1.js"></script>
+</body>
+</html>
